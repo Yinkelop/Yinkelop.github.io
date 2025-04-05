@@ -6,7 +6,7 @@
   <link href="https://yinkelop.github.io/atom.xml" rel="self"/>
   
   <link href="https://yinkelop.github.io/"/>
-  <updated>2025-04-04T12:07:25.494Z</updated>
+  <updated>2025-04-05T02:38:09.082Z</updated>
   <id>https://yinkelop.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>tmux操作指南</title>
+    <link href="https://yinkelop.github.io/2025/04/05/%E5%AD%A6%E4%B9%A0/tmux%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/"/>
+    <id>https://yinkelop.github.io/2025/04/05/%E5%AD%A6%E4%B9%A0/tmux%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/</id>
+    <published>2025-04-05T02:38:09.082Z</published>
+    <updated>2025-04-05T02:38:09.082Z</updated>
+    
+    <content type="html"><![CDATA[<p>tmux常用命令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs bash">tmux ? <span class="hljs-comment">#帮助列表</span><br><br>tmux <span class="hljs-built_in">ls</span>=tmux list-sessions<br>tumx new -s &lt;name&gt;<br>tmux detach<br><br>tmux attach -t 0<br>tmux switch -t 0<br>tmux kill-session -t 0<br>tmux kill-session -a<br>tmux rename-session -t 0<br><br>tmux list-key<br>tmux list-commands<br></code></pre></td></tr></table></figure><p>github: <a href="https://github.com/tmux/tmux">https://github.com/tmux/tmux</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;tmux常用命令&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>记录 2025040401</title>
